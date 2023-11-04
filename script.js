@@ -3,6 +3,7 @@ const imtahanneticesi=function(a,b){
     let d=a+b;
     if (b<17 || d<51){
         return "telebe kesildi";
+}
     
     else if(d>=51 && d<=60){
         return "E";
